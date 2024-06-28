@@ -1,0 +1,13 @@
+<div className="droppdown">
+                <Button type="horarioColor" btn="main">control horario <FaClock /></Button>
+                {open ? (
+                  <ul className="menu">
+                    <li className="menu-item">
+                      <button onclick={handleMenuOne}>Menu 1</button>
+                    </li>
+                    <li className="menu-item">
+                      <button onClick={handleMenuTwo}>Menu 2</button>
+                    </li>
+                  </ul>
+                ) : null}
+              </div>
